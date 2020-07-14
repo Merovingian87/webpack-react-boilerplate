@@ -1,29 +1,14 @@
 {
-  "name": "webpack-react",
+  "name": "webpack-react-app",
   "version": "1.0.0",
-  "description": "A boilerplate to bootstrap any react web app",
-  "main": "index.js",
   "scripts": {
     "start": "node server/app.js",
     "build": "webpack",
     "watchBuild": "webpack -w",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Merovingian87/webpack-react-boilerplate.git"
-  },
-  "keywords": [
-    "boilerplate",
-    "react",
-    "webpack"
-  ],
   "author": "Merovingian87",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Merovingian87/webpack-react-boilerplate/issues"
-  },
-  "homepage": "https://github.com/Merovingian87/webpack-react-boilerplate#readme",
   "dependencies": {
     "express": "^4.17.1",
     "react": "^16.13.1",
