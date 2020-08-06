@@ -42,5 +42,6 @@ The index.jsx file is your starting point, it imports <App /> and uses the React
 the link between your component and the DOM.
 
 Webapck will use index.jsx as the entry point from which to build the bundle.js file. 
-Bundle.js will have all your components transpiled into ES3 (old and always compatible JavaScript) and assambled 
-into a single js file which will anchor your entire React app into the root div on your html doc.
+Webpack will leverage Babel to transpile the all the ES6+ JS and the React JSX into ES3 (old and always compatible 
+JavaScript) and assambled all of it into a single bundle.js file which will anchor your entire React app onto 
+the root div of your html doc.
